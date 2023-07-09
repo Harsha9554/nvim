@@ -12,7 +12,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{
-	    'eddyekofo94/gruvbox-flat.nvim',
-	},
+
+	-- themes
+	"eddyekofo94/gruvbox-flat.nvim",
+	"joshdick/onedark.vim",
+	"axvr/photon.vim",
+	"rebelot/kanagawa.nvim",
+ 
+
 })
