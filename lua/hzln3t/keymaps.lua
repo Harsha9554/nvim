@@ -18,7 +18,7 @@ keymap("n", "<leader>-", ":split<CR>", opts)
 keymap("n", "<C-a>", "ggVG", opts)
 keymap("n", "<C-q>", ":qa!<CR>", opts)
 keymap("n", "<C-w>", ":q!<CR>", opts)
-keymap("n", "<C-s>", ":Prettier<CR>:w<CR>", opts)
+keymap("n", "<C-s>", ":w<CR>", opts)
 keymap("n", "<S-j>", "<PageDown>zz", opts)
 keymap("n", "<S-k>", "<PageUp>zz", opts)
 
