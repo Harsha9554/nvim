@@ -7,5 +7,8 @@
   "nvim-treesitter-context": { "branch": "master", "commit": "63f3ffc50b0afc59be1015153d00922498085be8" },
   "nvim-ts-rainbow2": { "branch": "master", "commit": "d2ea7b31b805cf4b7a05d032d0ec9d356345d3df" },
   "onedark.vim": { "branch": "main", "commit": "4e983447f0442dba1629cdaeddfd137793d71d28" },
-  "photon.vim": { "branch": "master", "commit": "32b42c8a12bf9588259b76f3df6807960e0d7386" }
+  "photon.vim": { "branch": "master", "commit": "32b42c8a12bf9588259b76f3df6807960e0d7386" },
+  "plenary.nvim": { "branch": "master", "commit": "bda256fab0eb66a15e8190937e417e6a14ee5d72" },
+  "telescope-file-browser.nvim": { "branch": "master", "commit": "e03ff55962417b69c85ef41424079bb0580546ba" },
+  "telescope.nvim": { "branch": "master", "commit": "776b509f80dd49d8205b9b0d94485568236d1192" }
 }
