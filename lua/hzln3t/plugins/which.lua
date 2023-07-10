@@ -27,6 +27,17 @@ return {
                 h = { "<cmd>Telescope help_tags<CR>", "help-tags", opts },
             },
 
+            -- trouble
+            x = {
+                name = "trouble",
+                x = { "<cmd>TroubleToggle<cr>", "trouble-toggle", opts },
+                w = { "<cmd>TroubleToggle workspace_diagnostics<cr>", "workspace-diagnositcs", opts },
+                d = { "<cmd>TroubleToggle document_diagnostics<cr>", "document-diagnositcs", opts },
+                l = { "<cmd>TroubleToggle loclist<cr>", "trouble-loclist", opts },
+                q = { "<cmd>TroubleToggle quickfix<cr>", "trouble-quickfix", opts },
+                t = { "<cmd>:TodoTelescope<cr>", "trouble-todo", opts },
+            },
+
             -- ufo
             f = {
                 name = "fold",
@@ -50,6 +61,9 @@ return {
                     opts,
                 },
             },
+
+            -- don't wanna show them on which key
+            ["<CR>"] = { ":so %<cr>:lua print('sourced-neovim.');<CR>", "which_key_ignore", opts },
 
         }, { prefix = "<leader>" })
 
