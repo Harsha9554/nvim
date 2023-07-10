@@ -8,7 +8,4 @@ return {
 
 	-- tmux
 	"christoomey/vim-tmux-navigator",
-
-    -- treesitter
-	"JoosepAlviste/nvim-ts-context-commentstring",
 }
