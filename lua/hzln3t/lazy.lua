@@ -18,6 +18,9 @@ require("lazy").setup({
 	"joshdick/onedark.vim",
 	"axvr/photon.vim",
 	"rebelot/kanagawa.nvim",
+
+    -- tmux
+    "christoomey/vim-tmux-navigator"
  
 
 })
