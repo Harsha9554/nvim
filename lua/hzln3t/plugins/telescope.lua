@@ -65,6 +65,7 @@ return {
             end)
 
             telescope.load_extension("file_browser")
+            telescope.load_extension("persisted")
 
         end
 	},

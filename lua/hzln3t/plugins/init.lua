@@ -1,5 +1,4 @@
 return {
-
 	-- themes
 	"eddyekofo94/gruvbox-flat.nvim",
 	"joshdick/onedark.vim",

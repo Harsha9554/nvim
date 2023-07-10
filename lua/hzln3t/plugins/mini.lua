@@ -34,6 +34,11 @@ return {
                             { action = "Telescope find_files", name = "Files", section = "Telescope" },
                             { action = "Telescope file_browser", name = "Browser", section = "Telescope" },
                             { action = "Telescope live_grep", name = "Live Grep", section = "Telescope" },
+                            {
+                                action = "Telescope persisted",
+                                name = "Sessions",
+                                section = "Telescope",
+                            },
                         }
                     end,
                     starter.sections.builtin_actions(),               

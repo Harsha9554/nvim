@@ -1,4 +1,5 @@
 {
+  "bufferline.nvim": { "branch": "main", "commit": "cd27a52ecdfed7f14a41b61b7976f155e3d593c7" },
   "gruvbox-flat.nvim": { "branch": "master", "commit": "1dc35c81da30d297f82d438ff362cf1b01d36782" },
   "kanagawa.nvim": { "branch": "master", "commit": "1749cea392acb7d1548a946fcee1e6f1304cd3cb" },
   "lazy.nvim": { "branch": "main", "commit": "da8b00581a52f5f87ad2aba9f52171fda7491f18" },
@@ -8,6 +9,7 @@
   "nvim-treesitter-context": { "branch": "master", "commit": "63f3ffc50b0afc59be1015153d00922498085be8" },
   "nvim-ts-rainbow2": { "branch": "master", "commit": "d2ea7b31b805cf4b7a05d032d0ec9d356345d3df" },
   "onedark.vim": { "branch": "main", "commit": "4e983447f0442dba1629cdaeddfd137793d71d28" },
+  "persisted.nvim": { "branch": "main", "commit": "b03c863731eafacd973912383297ea5d8fdb006a" },
   "photon.vim": { "branch": "master", "commit": "32b42c8a12bf9588259b76f3df6807960e0d7386" },
   "plenary.nvim": { "branch": "master", "commit": "bda256fab0eb66a15e8190937e417e6a14ee5d72" },
   "telescope-file-browser.nvim": { "branch": "master", "commit": "e03ff55962417b69c85ef41424079bb0580546ba" },
