@@ -62,6 +62,22 @@ return {
                 },
             },
 
+            -- lsp
+            l = {
+                name = "lsp",
+                c = { ":lua vim.lsp.buf.code_action()<CR>", "code-actions", opts },
+                d = { ":lua vim.lsp.buf.definition()<CR>", "definition", opts },
+                h = { ":lua vim.lsp.buf.hover()<CR>", "hover", opts },
+                s = { ":lua vim.lsp.buf.signature_help()<CR>", "signature", opts },
+                n = { ":lua vim.lsp.buf.rename()", "rename", opts },
+                r = { "<cmd>TroubleToggle lsp_references<CR>", "references", opts },
+                w = { ":lua vim.lsp.buf.workspace_symbol()<CR>", "workspace-symbol", opts },
+                f = { ":lua vim.lsp.buf.format()<CR>", "format", opts },
+            },
+
+            -- spectre
+            s = { "<cmd>lua require('spectre').open()<CR>", "spectre", opts },
+
             -- don't wanna show them on which key
             ["<CR>"] = { ":so %<cr>:lua print('sourced-neovim.');<CR>", "which_key_ignore", opts },
 

@@ -7,4 +7,8 @@ return {
 
 	-- tmux
 	"alexghergh/nvim-tmux-navigation",
+
+    -- other
+    "chaoren/vim-wordmotion",
+    "nvim-pack/nvim-spectre",
 }
