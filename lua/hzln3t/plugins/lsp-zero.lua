@@ -83,6 +83,7 @@ return {
         })
 
         lsp.set_preferences({
+	    set_lsp_keymaps = false,
             suggest_lsp_servers = false,
             sign_icons = {
                 error = "E",

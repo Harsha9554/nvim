@@ -78,6 +78,12 @@ return {
             -- spectre
             s = { "<cmd>lua require('spectre').open()<CR>", "spectre", opts },
 
+            -- confiture
+            c = {
+                name = "confiture",
+                r = { ":silent! wa<cr>:Confiture runner<cr>", "eleet-runner" },
+            },
+
             -- don't wanna show them on which key
             ["<CR>"] = { ":so %<cr>:lua print('sourced-neovim.');<CR>", "which_key_ignore", opts },
 

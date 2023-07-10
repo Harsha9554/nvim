@@ -9,6 +9,12 @@ return {
 	"alexghergh/nvim-tmux-navigation",
 
     -- other
+    "nvim-lua/popup.nvim",
+    "jakewvincent/mkdnflow.nvim",
+    "stevearc/dressing.nvim",
     "chaoren/vim-wordmotion",
     "nvim-pack/nvim-spectre",
+
+    -- code
+	"romainchapou/confiture.nvim",
 }
