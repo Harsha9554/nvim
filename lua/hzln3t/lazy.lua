@@ -11,16 +11,4 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-
-	-- themes
-	"eddyekofo94/gruvbox-flat.nvim",
-	"joshdick/onedark.vim",
-	"axvr/photon.vim",
-	"rebelot/kanagawa.nvim",
-
-    -- tmux
-    "christoomey/vim-tmux-navigator"
- 
-
-})
+require("lazy").setup("hzln3t.plugins")
