@@ -36,7 +36,7 @@ local options = {
 	writebackup = false,
 	-- which key options
 	timeout = true,
-	timeoutlen = 300,
+	timeoutlen = 400,
 	autoread = true,
 	-- folds / ufo
 	spelllang = "en_us",

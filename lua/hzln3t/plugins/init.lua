@@ -7,5 +7,5 @@ return {
 	"rebelot/kanagawa.nvim",
 
 	-- tmux
-	"christoomey/vim-tmux-navigator",
+	"alexghergh/nvim-tmux-navigation",
 }

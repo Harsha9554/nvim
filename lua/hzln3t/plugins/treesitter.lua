@@ -14,7 +14,6 @@ return {
                 "typescript",
                 "tsx",
                 "css",
-                "rust",
                 "java",
                 "yaml",
                 "markdown",
@@ -54,4 +53,6 @@ return {
             },
         }
     },
+
+    "HiPhish/nvim-ts-rainbow2",
 }
