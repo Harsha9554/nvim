@@ -1,10 +1,11 @@
 return {
 	{
-		"nvim-telescope/telescope.nvim", 
+		"nvim-telescope/telescope.nvim",
 		tag = '0.1.2',
-		dependencies = { 
+		dependencies = {
             "nvim-lua/plenary.nvim",
             "nvim-telescope/telescope-file-browser.nvim",
+            "nvim-telescope/telescope-ui-select.nvim",
         },
         config = function()
             local telescope = require("telescope")
@@ -49,6 +50,9 @@ return {
                         respect_gitignore = true,
                         mappings = {},
                     },
+                    ["ui-select"] = {
+                        require("telescope.themes").get_dropdown(),
+                    }
                 },
             })
 
@@ -66,6 +70,7 @@ return {
 
             telescope.load_extension("file_browser")
             telescope.load_extension("persisted")
+            telescope.load_extension("ui-select")
 
         end
 	},
