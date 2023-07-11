@@ -40,7 +40,7 @@ local options = {
 	autoread = true,
 	-- folds / ufo
 	spelllang = "en_us",
-	spell = true,
+	spell = false,
 }
 
 vim.opt.shortmess:append("c")
