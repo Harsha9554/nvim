@@ -14,6 +14,8 @@ return {
     "stevearc/dressing.nvim",
     "chaoren/vim-wordmotion",
     "nvim-pack/nvim-spectre",
+    "terryma/vim-expand-region",
+    "wellle/targets.vim",
 
     -- code
 	"romainchapou/confiture.nvim",
