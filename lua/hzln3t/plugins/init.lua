@@ -16,6 +16,7 @@ return {
     "nvim-pack/nvim-spectre",
     "terryma/vim-expand-region",
     "wellle/targets.vim",
+    "mg979/vim-visual-multi",
 
     -- code
 	"romainchapou/confiture.nvim",
